@@ -1,0 +1,178 @@
+body {
+  background-color: #262626;
+  margin: 0px;
+  padding: 0px;
+
+}
+.container{
+  width: 90%;
+  margin: auto;
+ 
+  
+  
+}
+/*=======this is top-header=========*/
+.top-header {
+  width: 100%;
+  height: 50px;
+  
+  background-color: #1A1A1D;
+  
+
+
+}
+
+
+
+.top-header  .top-main-header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.top-header .top-main-header .right-section ul{
+  display: flex;
+  list-style-type: none;
+  min-width: 100px;
+  text-align: center;
+  
+}
+
+.top-header .top-main-header .right-section ul li {
+  min-width: 100px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.top-header .top-main-header .right-section ul li a {
+ color: #C3073F;
+ text-decoration: none;
+ font-size: 25px;
+}
+
+.top-main-header .left-section p{
+  color:#C3073F ;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+  
+  
+}
+.top-header .top-main-header .right-section ul li a:hover {
+  border: 15px solid;
+  border-color: white;
+  background: #950740;
+  color: whitesmoke;
+  transition: 0.7s;
+  margin: 20px;
+ }
+
+
+.top-header .top-main-header .right-section ul li  ul {
+  display: flex;
+  background-color: #393939;
+  display: none;
+  flex-direction: column;
+  
+ }
+ 
+ .top-header .top-main-header .right-section ul li  ul {
+ min-width: 80px;
+line-height: 60px;
+margin-top: 20px;
+padding: 0px;
+text-align: center;  
+
+ }
+ .top-header .top-main-header .right-section ul li:hover ul {
+ display: block;
+ display: flex;
+ 
+ 
+  }
+ 
+ 
+/*=======this is end of top-header=========*/
+
+
+/*start of header*/
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #262626;
+  
+}
+
+.header .header-main-section .profile-img img {
+  
+  width: 280px;
+  margin: 20px;
+  border-radius: 120px;
+  margin-left:6.7in;
+  margin-top: -150px;
+  border:#950740 solid;
+  border-width: 8px;
+  
+}
+.header .header-main-section .Name {
+  color: #C3073F;
+  font-size: 45px;
+  margin-left:7.5in;
+  
+}
+.header .header-main-section .quote_box h1{
+  margin-top: 140px;
+  font-size: 70px;
+  color:#9c3046 ;
+}
+.header .header-main-section .quote_box p{
+  font-size: 50px;
+   color:#C3073F ;
+}
+.header .header-main-section .quote_box p a{
+  margin-bottom: 20px;
+  font-size: 50px;
+  color:#C3073F ;
+}
+.header .header-main-section .cover-img img { 
+  
+  width: 1000px;
+  height: 300px;
+  margin-left: 280px;
+   border: #9c3046 solid;
+   border-width: 10px;
+}
+
+
+/*end of header*/
+
+/*footer start*/
+
+
+.footer-main  {
+  width: 100%;
+  height:400px;
+  background-color:#393939;
+  border-top-left-radius:150px;
+  
+
+}
+
+
+.footer-main .footer-container p{
+  font-size: 25px;
+  color: aliceblue;
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.footer-main .footer-container .github-img img{
+  width: 50px;
+  margin-left:750px;
+  margin-top: -400px;
+  
+  
+}
+
+
+/*footer end*/
